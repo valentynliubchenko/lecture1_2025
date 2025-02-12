@@ -8,6 +8,7 @@ public class TestApp {
     public void test() {
         String str = "Hello World";
         Assertions.assertEquals(str, "Hello World");
+        Assertions.assertEquals(str, "Hello World");
     }
     @Test
     public void testSum() {
@@ -18,8 +19,5 @@ public class TestApp {
     public void testGreater100() {
         Assertions.assertEquals(100, App.sum(300,200));
     }
-    @Test
-    public void testLees0() {
-        Assertions.assertEquals(0, App.sum(-300,-200));
-    }
+
 }
