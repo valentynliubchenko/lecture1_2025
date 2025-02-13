@@ -2,6 +2,7 @@ package ua.nure;
 
 /**
  * Hello world!
+ * Some changes (Tytarenko)
  */
 public class App {
     public static void main(String[] args) {
